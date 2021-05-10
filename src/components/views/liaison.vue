@@ -534,8 +534,8 @@
                 <div style="width:100%">
                     <div class="ly">
                         <div class="cw">
-                            <el-select v-model="ztData" placeholder="-产品信息与销售-" class="cp" style=" width:100%;  ">
-                                <el-option v-for="item in cwoptions" :key="item.value" :label="item.label" :value="item.value">
+                            <el-select v-model="ztData" placeholder="-请选择-" class="cp" style=" width:100%;  ">
+                                <el-option v-for="item in consultingType" :key="item.value" :label="item.label" :value="item.value">
                                 </el-option>
                             </el-select>
                         </div>
@@ -652,12 +652,20 @@ export default {
                 value: '3',
                 label: '电话和邮箱'
             }],
+
             cwoptions: [{
                 value: '1',
                 label: '先生'
             }, {
                 value: '2',
                 label: '女士'
+            }],
+            consultingType: [{
+                value: '1',
+                label: '产品信息与销售'
+            }, {
+                value: '2',
+                label: '售后服务'
             }],
             citys: [{
                     img: "@/../static/imgs/liaison/lx/a4.jpg",

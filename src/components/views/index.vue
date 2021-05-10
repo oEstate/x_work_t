@@ -460,9 +460,6 @@ export default {
 </style>
 <style lang="scss" scoped>
 @media screen and (max-width: 640px) {
-  .slide_img {
-    object-fit: cover;
-  }
   .Dtilte {
     font-size: 22px;
     text-align: center;
@@ -493,9 +490,6 @@ export default {
 }
 /*浏览器窗口宽度大于等于640px 小于等于1199px*/
 @media screen and (min-width: 640px) and (max-width: 1199px) {
-  .slide_img {
-    object-fit: cover;
-  }
   .swiper-pagination {
     left: 2px;
   }

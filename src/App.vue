@@ -12,7 +12,9 @@ export default {
 
 <style>
 @import "../static/css/main.css";
-
+.slide_img{
+  object-fit: cover;
+}
 /*浏览器窗口宽度大于等于640px 小于等于1199px*/
 @media screen and (min-width: 640px) and (max-width: 1199px) {
   a {

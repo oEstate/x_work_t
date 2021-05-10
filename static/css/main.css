@@ -1,0 +1,118 @@
+/* ------------------wenzi------------------------------ */
+@font-face{
+  font-family:CN;
+  src:url('../font/Roboto-Medium.ttf');
+  
+  }
+  @font-face{
+    font-family:EN;
+    src:url('../font/JosefinSans-Bold.ttf');
+    
+  }
+  @font-face{
+    font-family:RO;
+    src:url('../font/Roboto-Medium.ttf');
+    
+  }
+  .mEN{
+    font-family:EN !important;
+  }
+  .mCN{
+    font-family:CN !important;
+  }
+  .mRO{
+    font-family:RO !important;
+  }
+  /* ------------------------------------------------- */
+.el-input__inner{
+  border: none !important;;
+  background-color: #FAFAFA !important;;
+  font-size: 16px !important;
+  color: #000 !important;
+  /* border-bottom: 1px solid #DE7E65 !important;; */
+  border-radius: 0px !important;;
+  
+}
+.el-select-dropdown__item{
+  color: #000 !important;
+}
+.el-select .el-input .el-select__caret{
+  color: #000 !important;;
+}
+.el-input__inner::-webkit-input-placeholder {
+  color: #000 !important;
+}
+.el-input__inner::-moz-input-placeholder {
+  color: #000 !important;
+}
+.el-input__inner::-ms-input-placeholder {
+  color: #000 !important;
+}
+
+.el-tabs__item:hover{
+  color: #000 !important;
+}
+.el-tabs__item.is-active{
+  color: #000 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+
+}
+.el-tabs__active-bar{
+  background-color:#DE7E65 !important;
+}
+.el-tabs__nav-wrap::after {
+  background-color:transparent  !important;
+}
+
+.el-checkbox__inner {
+    border:1px solid #DE7E65 !important;
+    
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+     color: #A39894 !important;;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: #DE7E65 !important;
+}
+
+.el-textarea__inner{
+  background-color:#E9E3DB !important;
+  border:none  !important;
+  /* border-bottom:1px solid #DE7E65 !important;; */
+  border-radius:0px !important;;
+  border-radius: 15px !important;
+}
+
+.caseby .el-tabs__nav-scroll{
+display: none !important;
+}
+
+
+
+
+/* *********************************************************************** */
+.cwsy  .el-input__inner{
+border: none !important;
+border-radius: 20px !important;
+background: #E9E3DB  !important;
+ 
+height: 30px !important;
+color: #000 !important;
+}
+
+.cwsy .el-input__icon{
+height: 100% !important;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.cwsy .el-select .el-input .el-select__caret{
+color: #000 !important;;
+}
+.cw .cp .el-input__inner{
+
+background: #E7BDB1  !important;
+border-radius: 30px !important;
+border:2px solid #D96F55 !important;;
+}

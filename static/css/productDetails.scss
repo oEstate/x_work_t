@@ -1,0 +1,124 @@
+@media screen and (max-width: 640px) {
+  img {
+    object-fit: cover;
+  }
+
+  .eggSwiper .swiper-pagination,
+  .seriesSwiper .swiper-pagination {
+    left: 2px;
+  }
+
+  .h1T1 {
+    left: 30px;
+    top: 120px;
+    padding-right: 14px;
+
+    .h1T1T1 {
+      font-size: 26px;
+      letter-spacing: 6px;
+    }
+  }
+
+  .h1T3 {
+    flex-direction: column;
+  }
+
+  .imgtype1 {
+    flex-direction: column;
+
+    .imgtype1left {
+      height: 68%;
+    }
+
+    .imgtype1right {
+      height: 32%;
+      width: 100%;
+      padding: 10px 10px 10px 32px;
+    }
+  }
+
+  .imgtype2right {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: initial;
+
+    .imgtype2righttop {
+      padding: 10px 10px 10px 32px;
+      margin: 0;
+    }
+
+    img {
+      margin-left: auto;
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*浏览器窗口宽度大于等于640px 小于等于1199px*/
+@media screen and (min-width: 640px) and (max-width: 1199px) {
+  img {
+    object-fit: cover;
+  }
+
+  .eggSwiper .swiper-pagination,
+  .seriesSwiper .swiper-pagination {
+    left: 2px;
+  }
+
+  .h1T3 {
+    flex-direction: column;
+  }
+
+  .h1T2 {
+    font-size: 14px;
+  }
+
+  .h1T1 {
+    left: 60px;
+    top: 120px;
+    padding-right: 14px;
+
+    .h1T1T1 {
+      font-size: 26px;
+      letter-spacing: 6px;
+    }
+  }
+
+  .imgtype1 {
+    flex-direction: column;
+
+    .imgtype1left {
+      height: 68%;
+    }
+
+    .imgtype1right {
+      height: 32%;
+      width: 100%;
+      padding: 10px 10px 10px 62px;
+    }
+  }
+
+  .imgtype2right {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: initial;
+
+    .imgtype2righttop {
+      padding: 10px 10px 10px 62px;
+      margin: 0;
+    }
+
+    img {
+      margin-left: auto;
+      margin-bottom: 0;
+    }
+  }
+}

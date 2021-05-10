@@ -395,8 +395,8 @@ export default {
   watch: {
     $route() {
       this.$store.state.active = 2;
-      this.rolling()
       if (this.$route.query.index) {
+        this.rolling()
         this.active = [this.$route.query.index]
         /* 去重 */
         this.active = this.removeDuplicatedItem(this.active);
@@ -410,6 +410,7 @@ export default {
   mounted() {
     this.$store.state.active = 2;
     if (this.$route.query.index) {
+      this.rolling()
       this.active.push(this.$route.query.index)
       /* 去重 */
       this.active = this.removeDuplicatedItem(this.active);
@@ -441,7 +442,7 @@ export default {
       })
     },
     rolling() {
-      let height = $("#proheader").height() - 70
+      let height = $("#proheader").height() - 70;
       window.scrollTo(0, height)//第二个0表示滚动距离
     },
     atPosition() {

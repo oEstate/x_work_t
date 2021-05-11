@@ -1,7 +1,7 @@
 <!-- 产品 -->
 <template>
   <div class="productmain">
-    <div class="proheader" id="proheader">
+    <div class="proheader" id="proheader" ref="proheader">
       <img src="@/../static/imgs/product/move/move.jpg" width="100%;height:100%" alt="">
       <div class="proheaderF">
         <div class="T1 mEN">LOOSE FURNITURE <span>活动家具</span></div>
@@ -578,8 +578,10 @@ export default {
       })
     },
     rolling() {
-      let height = $("#proheader").height() - 70;
-      window.scrollTo(0, height)//第二个0表示滚动距离
+      this.$nextTick(() => {
+        let height = this.$refs.proheader.offsetHeight - 70;
+        window.scrollTo(0, height)//第二个0表示滚动距离
+      })
     },
     atPosition() {
       $(window).scroll(function () {

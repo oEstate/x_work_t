@@ -113,7 +113,7 @@ export default {
         slidesPerView: 1,
         // spaceBetween: 30,
         mousewheel: true,
-
+        keyboard : true,
         on: {
           slideChangeTransitionEnd: function () {
             //    console.log(this.activeIndex);//切换结束时，告诉我现在是第几个slide

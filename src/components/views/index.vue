@@ -160,7 +160,7 @@ export default {
         slidesPerView: 1,
         // spaceBetween: 30,
         mousewheel: true,
-
+        keyboard : true,
         on: {
           slideChangeTransitionEnd: function () {
             // console.log(this.activeIndex); //切换结束时，告诉我现在是第几个slide
@@ -210,6 +210,7 @@ export default {
         disableOnInteraction: false,
         notNextTick: true,
         mousewheel: true,
+        keyboard : true,
         //循环
         loop: true,
         //设定初始化时slide的索引
